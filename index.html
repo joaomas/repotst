@@ -39,84 +39,24 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#intro">Home</a></li>
-        <li><a href="#about">About</a></li>
-		<li><a href="#getStarted">Get Started</a></li>
-		<li><a href="#contact">Contact</a></li>
-        <li class="Publications">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Publications <b class="caret"></b></a>
-			<ul class="dropdown-menu">
-
-			<a href="papers.html" onclick="window.open(this.href, 'popup'); return false;">TESTE</a>
-		  
-			<!--
-			<a href="/index2.php?option=com_jumi&amp;fileid=3&amp;Itemid=11"
-			onclick="window.open(this.href,'targetWindow',
-											`toolbar=no,
-											 location=no,
-											 status=no,
-											 menubar=no,
-											 scrollbars=yes,
-											 resizable=yes,
-											 width=SomeSize,
-											 height=SomeSize`);
-		  return false;">Popup link</a>
-		 -->
-
-
-			<li><a href="papers.html" target="popup" 
-				onclick="window.open('papers.html','popup')">Papers</a></li>
-			<li><a href="Presentations.html" target="popup"
-				onclick="window.open("Presentations.html","popup","width=600,height=600");
-				return false;">Presentations</a></li>		
-				
-				
+    	<ul class="nav navbar-nav">
+        	<li class="active"><a href="#intro">Home</a></li>
+        	<li><a href="#about">About</a></li>
+			<li><a href="#getStarted">Get Started</a></li>
+			<li><a href="#publications">Publications</a></li>
+			<li><a href="#workshops">Workshops</a></li>	
+			<li class="Download">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Download<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="https://github.com/monanadmin/MONAN-Model" target="_blank">MONAN-Model GitHub Repository</a></li>
+				</ul>
+			</li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
-        <li class="Documentation">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Workshops<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-			<li><a href="web_doc/namelist-BRAMS-5.2-feb2016.pdf" target="popup"
-				onclick="window.open("web_doc/namelist-BRAMS-5.2-feb2016.pdf","popup","width=600,height=600");
-				return false;">Input Namelist</a></li>
-			<li><a href="web_doc/BRAMS-5.2-POS-VARLIST.pdf" target="popup"
-				onclick="window.open("web_doc/BRAMS-5.2-POS-VARLIST.pdf","popup","width=600,height=600");
-				return false;">Post processing variables</a></li>
-			<li><a href="web_doc/guide-BRABU-0.1beta.pdf" target="popup"
-				onclick="window.open("web_doc/guide-BRABU-0.1beta.pdf","popup","width=600,height=600");
-				return false;">BRABU – Brams Ramsin Build Utility User’s Guide for version 0.1.8 Beta</a></li>
-			<li><a href="web_doc/guide-dprep-5.1.0.pdf" target="popup"
-				onclick="window.open("web_doc/guide-dprep-5.1.0.pdf","popup","width=600,height=600");
-				return false;">DPREP-CHEM – User’s Guide for version 5.1.0</a></li>
-			<li><a href="web_doc/guide-geraDP-5.1.0.pdf" target="popup"
-				onclick="window.open("web_doc/guide-geraDP-5.1.0.pdf","popup","width=600,height=600");
-				return false;">GeraDP – User’s Guide for version 5.1.0</a></li>
-			<li><a href="web_doc/guide-PREP-CHEM-SRC-1.5.pdf" target="popup"
-				onclick="window.open("web_doc/guide-PREP-CHEM-SRC-1.5.pdf","popup","width=600,height=600");
-				return false;">PREP­‐CHEM­‐SRC – User’s Guide for version 1.5</a></li>	
-			<li><a href="web_doc/guide-PREP-CHEM-SRC-1.8.3.pdf" target="popup"
-				onclick="window.open("web_doc/guide-PREP-CHEM-SRC-1.8.3.pdf","popup","width=600,height=600");
-				return false;">PREP­‐CHEM­‐SRC – User’s Guide for version 1.8.3 Beta</a></li>	
-			<li><a href="web_doc/guide-ramspost-5.0.pdf" target="popup"
-				onclick="window.open("web_doc/guide-ramspost-5.0.pdf","popup","width=600,height=600");
-				return false;">RAMSPOST – User’s Guide for version 5.0</a></li>
-			<li><a href="web_doc/guide-ramspost-6.0.pdf" target="popup"
-				onclick="window.open("web_doc/guide-ramspost-6.0.pdf","popup","width=600,height=600");
-				return false;">RAMSPOST – User’s Guide for version 6.0 Beta</a></li>
-			</ul>
-		  <li class="Download">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
-			<ul class="dropdown-menu">
-				<li><a href="https://github.com/monanadmin/MONAN-Model" target="popup"
-					onclick="window.open("https://github.com/luflarois/brams","popup","width=600,height=600");
-					return false;">MONAN Code</a></li>
-			</ul>
-		  <//li>
-        </li>
-      </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.navbar-collapse -->
+        
+		</div>
         <!-- /.container -->
     </nav>
 
@@ -142,7 +82,7 @@
 		</p>
 		<div class="heading-about">
 		<p>
-			MONAN (Model for Ocean-laNd-Atmosphere PredictioN) is a community model of the Unified Earth System that has as its main objective, as its name already refers, to be a numerical model that covers all scales, geographical and temporal, of the entire Earth system and its implications. It is "community" because it aggregates efforts from several brazilian national institutions such as universities, research centers, operational centers and various authorities in the area of meteorology, environment, oceans and others. It also can receive support from international centers and universities as well as support from the private sector.
+			<strong>MONAN (Model for Ocean-laNd-Atmosphere PredictioN)</strong> is a community model of the Unified Earth System that has as its main objective, as its name already refers, to be a numerical model that covers all scales, geographical and temporal, of the entire Earth system and its implications. It is "community" because it aggregates efforts from several brazilian national institutions such as universities, research centers, operational centers and various authorities in the area of meteorology, environment, oceans and others. It also can receive support from international centers and universities as well as support from the private sector.
 			<br><br>
 			The MONAN Model is managed by a scientific committee appointed by INPE's director and has its initial version structure (0.1.0) based on the dynamic core of the MPAS 8.0.1 Model. part of the physics used by MONAN is obtained from the MPAS model and another part obtained from other sources or developed by the community. The MPAS model can be found at the link GitHub, <a href="https://mpas-dev.github.io/" target="_blank">MPAS-Dev/MPAS-Model: Repository for MPAS models</a> and shared framework releases.
 		</p>
@@ -150,75 +90,6 @@
 	</section>
 	<!-- /Section: about -->
 	
-	<!-- Section: further
-    <section id="further" class="home-section text-center bg-gray">
-		
-		<div class="heading-about">
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
-					<div class="section-heading">
-					<h2>Further Information</h2>
-					<i class="fa fa-2x fa-angle-down"></i>
-					</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="container">
-		<div class="row">
-			<div class="col-lg-2 col-lg-offset-5">
-				<hr class="marginbot-50">
-			</div>
-		</div>
-        <div class="row">
-            <div class="col-sm-3 col-md-3">
-				<div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/atmosphere.420.jpg" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>THE ATMOSPHERIC MODEL</h5>
-						<p>xxxxxx</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/pollution.420.jpg" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>CHEMISTRY AND TRACER TRANSPORT</h5>
-						<p>xxxxxx</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/surface.420.jpg" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>LAND SURFACE PROCESSES AND CARBON CYCLE</h5>
-						<p>xxxxxx</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			
-		</div>		
-		</div>
-	</section>
-	</Section: further -->
-
 	<!-- Section: Get Started -->
     <section id="getStarted" class="home-section text-center bg-gray">
 		<div class="heading-about">
@@ -274,55 +145,87 @@
                 </div>
 				</div>
             </div>
-			<!--
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<a href="BRAMS_6.0_-_INSTALL_MODEL.html" target="popup"
-						onclick="window.open("BRAMS_6.0_-_INSTALL_MODEL.html","popup","width=600,height=600");
-						return false;"><img src="img/icons/columns_gap_icon_160222.png" alt="" /></a></li>
+	    </div>		
+		</div>
+		
+	<!-- Section: publications -->
+	<section id="publications" class="home-section text-center bg-gray">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Publications</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
 					</div>
-					<div class="service-desc">
-						<h5>Build Model</h5>
-						<p>After the pre-requisites are installed You can install the model. Please, click in the icon above to see how to proceed the instalation</p>
 					</div>
-                </div>
 				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<a href="Running.html" target="popup"
-						onclick="window.open("Running.html","popup","width=600,height=600");
-						return false;"><img src="img/icons/skateboarding_icon_218108.png" alt="" /></a></li>
-					</div>
-					<div class="service-desc">
-						<h5>Run the Model</h5>
-						<p>To run the model, after the instalation of pre-requisites, model and data, click in icon above.</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/icons/snowfall_frost_rain_hail_sleet_snowy_icon_220101.png" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>See results</h5>
-						<p>The output of model is in GRADS file. May be used another formats for expert users. If You are using Ubuntu Linux or some Debian derivated Linux You can install grads in a simple way, using apt-get command. To learn about grads we recommend to read the document <A href="https://www.cpc.ncep.noaa.gov/products/international/grads/Advanced_GrADS_Manual.pdf">Grads Manual from NCEP</A>.</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			-->
-        </div>		
+			</div>
+			</div>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+		<div class="heading-about text-left">
+		<p>
+		<ul>
+			<li><strong>Relatório Técnico: Perspectivas da Modelagem Numérica dos processos de microfísica de nuvens no Brasil e suas aplicações no modelo comunitário MONAN</strong>. Kubota, Paulo Yoshio; Gutierrez, Enver Manuel Amador Ramirez; Rivero, Silvio Nilo Figueroa; Manco, Jhonatan Andres Aguirre; Gomes, Jorge Luis; Bonatti, José Paulo; Chan, Chou Sin; Freitas, Saulo Ribeiro; Souza, Dayana Castilho e Lima, Isabella Talamoni. INPE, São José dos Campos, 2023. <a href="http://urlib.net/ibi/8JMKD3MGP3W34T/49RSTC5">Acesso aqui</a></li>
+		</ul>
+		<ul>
+			<li><strong>Model for Ocean-laNd-Atmosphere predictioN (MONAN): Avaliação dos candidatos ao núcleo dinâmico do componente atmosférico (MONAN-ATM) – Recomendação ao Comitê Científico do MONAN</strong>. Freitas, S. R. INPE, São José dos Campos, 2023. <a href="http://urlib.net/ibi/8JMKD3MGP3W34T/49MKML8">Acesso aqui</a></li>
+		</ul>		
+		</p>
 		</div>
 	</section>
-	<!-- /Section: Get Started -->
+	<!-- /Section: publications -->
+
+	<!-- Section: workshops -->
+	<section id="workshops" class="home-section text-center bg-gray">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Workshops</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+		<div class="heading-about text-left">
+		<!-- 1° Workshops-->
+		<ul>
+			<h4><li>1° Workshop</li></h4>
+			<strong>Data:</strong> 2 a 3 Outubro 2023.<br>
+			<strong>Local:</strong> Auditório CPTEC.<br>
+			<strong>Nota:</strong> 1° Workshop Interno da DIMNT para início dos trabalhos com o MONAN-ATM/SFC.</strong><br>
+			<strong>Agenda e Apresentações:</strong><a href="workshops.html#1workshop"> Link</a><br>
+			<br><br>	
+		</ul>	
+		<ul>
+			<h4><li>2° Workshop</li></h4>
+			<strong>Data:</strong> 2 a 3 Outubro 2023.<br>
+			<strong>Local:</strong> Auditório CPTEC.<br>
+			<strong>Nota:</strong> 1° Workshop Interno da DIMNT para início dos trabalhos com o MONAN-ATM/SFC.</strong><br>
+			<strong>Agenda e Apresentações:</strong><a href="workshops.html#2workshop"> Link</a><br>
+			<br><br>	
+		</ul>
+		</div>
+	</section>
+	<!-- /Section: workshops -->
 	
 	<!-- Section: contact -->
     <section id="contact" class="home-section text-center">
