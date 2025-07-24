@@ -15,7 +15,7 @@ _(Briefly describe what this Pull Request adds or modifies in the MONAN model...
 ### ✅ Testing and Code Quality
 
 - [ ] Code follows the MONAN DTN-01 coding standard  
-- [ ] The MONAN model was successfully compiled and executed  
+- [ ] The MONAN model was compiled and executed successfully with the proposed changes
 - [ ] New code is covered by unit or regression tests (if applicable)
 
 
