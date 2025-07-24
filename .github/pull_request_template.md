@@ -1,9 +1,7 @@
 ### 📝 Pull Request Summary
 
-_Briefly describe what this Pull Request adds or modifies in the MONAN model.<br>
-(...)_
+_(Briefly describe what this Pull Request adds or modifies in the MONAN model...)_
 
----
 
 ### 🔧 Modification Type
 
@@ -13,7 +11,6 @@ _Briefly describe what this Pull Request adds or modifies in the MONAN model.<br
 - [ ] Code refactoring  
 - [ ] Other: _____________
 
----
 
 ### ✅ Testing and Code Quality
 
@@ -21,9 +18,7 @@ _Briefly describe what this Pull Request adds or modifies in the MONAN model.<br
 - [ ] The MONAN model was successfully compiled and executed  
 - [ ] New code is covered by unit or regression tests (if applicable)
 
----
 
 ### 🧪 Scientific Impact
 
-_If applicable, summarize the scientific or methodological relevance of this contribution.<br>
-(...)_
+_(If applicable, summarize the scientific or methodological relevance of this contribution...)_
