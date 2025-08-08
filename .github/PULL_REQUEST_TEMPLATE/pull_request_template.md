@@ -3,7 +3,7 @@
 
 ### Descrição do Pull Request
 
-O que este Pull Request contém? O que foi alterado?
+_O que este Pull Request contém? O que foi alterado?_
 
 (...)
 
@@ -12,14 +12,17 @@ O que este Pull Request contém? O que foi alterado?
 - [ ] Bug fix
 - [ ] Nova funcionalidade
 - [ ] Melhoria em funcionalidade atual
-- [ ] Refatoração
-- [ ] Outro: _____________
+- [ ] Refatoração do código
+- [ ] Outro: __________________
 
 ### Testes e Qualidade
 
 - [ ] Código foi escrito seguindo a DTN-01 (Padrão de Codificação) do MONAN.
-- [ ] Teste de compilação e execução do modelo foi realizado.
+- [ ] Teste de compilação e execução do modelo foram realizados.
+- [ ] Teste com a flag de debug foi realizado.
+- [ ] O resultado tem reprodutibilidade com as configurações default.
+
 
 ### 🧪 Impacto científico
 
-(...)
+_Espaço para maior detalhamento das alterações realizadas. Citar artigos e referências utilizadas_
