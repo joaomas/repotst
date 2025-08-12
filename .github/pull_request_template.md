@@ -2,6 +2,7 @@
 
 _(Briefly describe what this Pull Request adds or modifies in the MONAN model...)_
 
+(...)
 
 ### 🔧 Modification Type
 
@@ -22,3 +23,5 @@ _(Briefly describe what this Pull Request adds or modifies in the MONAN model...
 ### 🧪 Scientific Impact
 
 _(If applicable, summarize the scientific or methodological relevance of this contribution...)_
+
+(...)
